@@ -13,12 +13,11 @@ endif
 let g:colors_name = "carrot"
 
 " Normal
-"highlight Normal gui=none guifg=DarkBlue guibg=PeachPuff 
-highlight Normal gui=none guifg=#1E2C70 guibg=PeachPuff 
+highlight Normal gui=none guifg=DarkBlue guibg=PeachPuff 
 
 " Search
-highlight IncSearch gui=none guifg=#1E2C70 guibg=#fcc877
-highlight Search    gui=bold guifg=#804020 guibg=#fcc877 
+highlight IncSearch gui=none guifg=White   guibg=Brown
+highlight Search    gui=bold guifg=#804020 guibg=#fcc657 
 
 " Messages
 highlight ErrorMsg   gui=none guifg=#f8f8f8 guibg=#4040ff
@@ -28,10 +27,10 @@ highlight MoreMsg    gui=none guifg=#0090a0 guibg=bg
 highlight Question   gui=none guifg=#8000ff guibg=bg
 
 " Split area
-highlight StatusLine   gui=none guifg=#ffffff guibg=#4570aa 
-highlight StatusLineNC gui=none guifg=#ffffff guibg=#75a0da 
+highlight StatusLine   gui=bold guifg=Black   guibg=#FFB848
+highlight StatusLineNC gui=none guifg=Brown   guibg=#FCC785 
 highlight VertSplit    gui=none guifg=#f8f8f8 guibg=#904838 
-highlight WildMenu     gui=bold guifg=Wheat guibg=NavyBlue
+highlight WildMenu     gui=bold guifg=White   guibg=NavyBlue
 
 " Diff
 highlight DiffText   gui=none guifg=red   guibg=#ffd0d0 
@@ -40,16 +39,16 @@ highlight DiffDelete gui=none guifg=bg    guibg=#e7e7ff
 highlight DiffAdd    gui=none guifg=blue  guibg=#e7e7ff 
 
 " Cursor
-highlight Cursor   gui=none guifg=#ffffff guibg=Red4
+highlight Cursor   gui=none guifg=Grey85  guibg=Red4
 highlight lCursor  gui=none guifg=#ffffff guibg=#8040ff
-highlight CursorIM gui=none guifg=#ffffff guibg=#8040ff
+highlight CursorIM gui=none guifg=#ffffff guibg=Red3
 
 " Fold
 highlight Folded     gui=none guifg=#804030 guibg=#fff0d0 
 highlight FoldColumn gui=none guifg=#6b6b6b guibg=#e7e7e7 
 
 " Other
-highlight Directory  gui=bold guifg=#112662 guibg=bg
+highlight Directory  gui=none guifg=#112662 guibg=bg
 highlight LineNr     gui=none guifg=#6b6b6b guibg=bg
 highlight NonText    gui=none guifg=#707070 guibg=PeachPuff2
 highlight SpecialKey gui=none guifg=#c0c0c0 guibg=bg 
@@ -67,7 +66,7 @@ highlight Special    gui=none guifg=#8040f0 guibg=bg
 highlight Statement  gui=bold guifg=IndianRed3 guibg=bg      
 highlight Conditional gui=bold guifg=#7f0055 guibg=bg      
 highlight Todo       gui=none guifg=White   guibg=Grey20   term=standout       
-highlight Type       gui=bold guifg=Orange3 guibg=bg      
+highlight Type       gui=bold guifg=Brown   guibg=bg      
 highlight Underlined gui=none guifg=blue    guibg=bg
 highlight String     gui=none guifg=#8010a0 guibg=bg      
 highlight Number     gui=none guifg=#0000ff guibg=bg      
